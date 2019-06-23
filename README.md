@@ -1,5 +1,7 @@
 <p align="center">
 <img height="40" src="http://blog.zhangruipeng.me/hexo-theme-minos/images/logo.png">
+<br>
+BachPT
 <br> A simple and retro styled Hexo theme, concentrating more on your ideas.
 <br>
 <a href="http://blog.zhangruipeng.me/hexo-theme-minos/"><b>Preview</b></a> | 
