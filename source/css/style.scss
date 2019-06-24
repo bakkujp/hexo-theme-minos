@@ -1,9 +1,14 @@
-$family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+// $family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-serif: "Quicksand", sans-serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
+$font-title: "EB Garamond", serif;
 $border-color: #dbdbdb;
+$text-color: #0a0a0a;
 
 body, button, input, select, textarea {
     font-family: $family-serif;
+    font-size: 1.1rem;
+    color: $text-color;
 }
 
 
@@ -52,6 +57,10 @@ a.tag.article-tag {
         border-top: 1px solid $border-color;
     }
 
+    .article-title a {
+        font-family: $font-title;
+    }
+
     .article-title a,
     .article-meta a {
         color: inherit;
@@ -62,11 +71,11 @@ a.tag.article-tag {
     }
 
     .article-meta {
-        font-size: .9rem;
+        font-size: .65rem;
         text-transform: uppercase;
 
         @media screen and (max-width: 768px) {
-            margin-top: 0.75rem;
+            margin-top: 0.6rem;
 
             .column {
                 padding-top: 0;
@@ -76,6 +85,13 @@ a.tag.article-tag {
 
         .article-category-link {
             margin: 0 0.3rem;
+        }
+    }
+
+    .article-entry {
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
         }
     }
 
