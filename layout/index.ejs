@@ -1,7 +1,11 @@
 <section class="section">
     <div class="container">
-    <% page.posts.each(function(post){ %>
-        <%- partial('common/article', { post, index: true }) %>
+    <% page.posts.each(function(post, index){ %>
+        <% if (index == 0) { %>
+            <%- partial('common/article', { post, index: true }) %>
+        <% } else { %>
+            <%- partial('common/article-concise', { post, index: true }) %>
+        <% } %>
     <% }); %>
     <% if (page.total > 1) { %>
         <%- partial('common/paginator') %>

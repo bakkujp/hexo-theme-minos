@@ -4,6 +4,7 @@ $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $font-title: "EB Garamond", serif;
 $border-color: #dbdbdb;
 $text-color: #0a0a0a;
+$footer-padding: 3rem 1.5rem 3rem !default;
 
 body, button, input, select, textarea {
     font-family: $family-serif;
@@ -357,6 +358,7 @@ a.tag.article-tag {
 .footer {
     font-size: .9rem;
     background: transparent;
+    padding: $footer-padding;
 
     .content {
         padding-top: 2rem;
