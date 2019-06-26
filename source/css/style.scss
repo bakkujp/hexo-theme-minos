@@ -60,6 +60,7 @@ a.tag.article-tag {
 
     .article-title a {
         font-family: $font-title;
+        text-transform: uppercase;
     }
 
     .article-title a,
@@ -67,7 +68,7 @@ a.tag.article-tag {
         color: inherit;
         border-bottom: 1px dotted transparent;
         &:hover {
-            border-bottom-color: black;
+            border-bottom-color: black
         }
     }
 
