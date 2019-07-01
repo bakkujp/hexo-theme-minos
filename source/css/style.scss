@@ -39,6 +39,16 @@ a.tag.article-tag {
         font-weight: 600;
     }
 
+    .navbar-logo-text {
+        
+        font-family: "consolas", serif;
+        text-transform: uppercase; 
+        .navbar-logo-text-icon {
+            color: red;
+        }
+
+    }
+
     .navbar-item {
         text-align: center;
     }
