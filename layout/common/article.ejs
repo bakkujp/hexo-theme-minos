@@ -59,12 +59,6 @@
     <% } %>
 </article>
 
-<% if (!index && has_config('share.type')) { %>
-<div class="sharebox">
-    <%- partial('share/' + get_config('share.type')) %>
-</div>
-<% } %>
-
 <% if (!index && get_config('comments') && has_config('comment.type')) { %>
 <div class="comments">
     <h3 class="title is-4"><%= __('article.comments') %></h3>
